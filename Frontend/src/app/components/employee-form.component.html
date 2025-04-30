@@ -1,0 +1,91 @@
+<div class="container mt-4">
+  <h2>{{ isEdit ? 'Edit' : 'Add' }} Employee</h2>
+
+  <div *ngIf="successMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+    {{ successMessage }}
+    <button type="button" class="btn-close" (click)="clearMessages()"></button>
+  </div>
+  <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{ errorMessage }}
+    <button type="button" class="btn-close" (click)="clearMessages()"></button>
+  </div>
+
+  <form (ngSubmit)="saveEmployee()" #empForm="ngForm" class="mt-3">
+    <div class="mb-3">
+      <label for="firstName">First Name</label>
+      <input
+        [(ngModel)]="employee.firstName"
+        name="firstName"
+        id="firstName"
+        class="form-control"
+        required
+        minlength="2"
+        pattern="[A-Za-z]+"
+        #firstName="ngModel"
+      >
+      <div *ngIf="firstName.invalid && (firstName.dirty || firstName.touched)" class="text-danger">
+        <div *ngIf="firstName.errors?.['required']">First Name is required.</div>
+        <div *ngIf="firstName.errors?.['minlength']">First Name must be at least 2 characters.</div>
+        <div *ngIf="firstName.errors?.['pattern']">First Name must contain only letters.</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="lastName">Last Name</label>
+      <input
+        [(ngModel)]="employee.lastName"
+        name="lastName"
+        id="lastName"
+        class="form-control"
+        required
+        minlength="2"
+        pattern="[A-Za-z]+"
+        #lastName="ngModel"
+      >
+      <div *ngIf="lastName.invalid && (lastName.dirty || lastName.touched)" class="text-danger">
+        <div *ngIf="lastName.errors?.['required']">Last Name is required.</div>
+        <div *ngIf="lastName.errors?.['minlength']">Last Name must be at least 2 characters.</div>
+        <div *ngIf="lastName.errors?.['pattern']">Last Name must contain only letters.</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="email">Email</label>
+      <input
+        [(ngModel)]="employee.email"
+        name="email"
+        id="email"
+        class="form-control"
+        required
+        email
+        #email="ngModel"
+      >
+      <div *ngIf="email.invalid && (email.dirty || email.touched)" class="text-danger">
+        <div *ngIf="email.errors?.['required']">Email is required.</div>
+        <div *ngIf="email.errors?.['email']">Please enter a valid email address.</div>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="position">Position</label>
+      <input
+        [(ngModel)]="employee.position"
+        name="position"
+        id="position"
+        class="form-control"
+        required
+        minlength="3"
+        #position="ngModel"
+      >
+      <div *ngIf="position.invalid && (position.dirty || position.touched)" class="text-danger">
+        <div *ngIf="position.errors?.['required']">Position is required.</div>
+        <div *ngIf="position.errors?.['minlength']">Position must be at least 3 characters.</div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-success" [disabled]="empForm.invalid">
+      {{ isEdit ? 'Update' : 'Save' }}
+    </button>
+    <button type="button" class="btn btn-secondary ms-2" (click)="cancel()">Cancel</button>
+  </form>
+</div>
