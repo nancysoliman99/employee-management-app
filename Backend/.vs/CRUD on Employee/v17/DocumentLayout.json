@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\company task\\CRUD on Employee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|e:\\iti\\company task\\crud on employee\\crud on employee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|solutionrelative:crud on employee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|e:\\iti\\company task\\crud on employee\\crud on employee\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|solutionrelative:crud on employee\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|e:\\iti\\company task\\crud on employee\\crud on employee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|solutionrelative:crud on employee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|e:\\iti\\company task\\crud on employee\\crud on employee\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|solutionrelative:crud on employee\\services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|e:\\iti\\company task\\crud on employee\\crud on employee\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F9F88-0774-4C8F-8034-CD95472645F0}|CRUD on Employee\\CRUD on Employee.csproj|solutionrelative:crud on employee\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD on Employee\\Program.cs",
+              "ToolTip": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Program.cs",
+              "RelativeToolTip": "CRUD on Employee\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:29:33.709Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "CRUD on Employee\\Services\\IEmployeeService.cs",
+              "ToolTip": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Services\\IEmployeeService.cs",
+              "RelativeToolTip": "CRUD on Employee\\Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:43:23.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CRUD on Employee\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CRUD on Employee\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:43:04.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CRUD on Employee\\Models\\Employee.cs",
+              "ToolTip": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Models\\Employee.cs",
+              "RelativeToolTip": "CRUD on Employee\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:24:42.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CRUD on Employee\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\ITI\\company task\\CRUD on Employee\\CRUD on Employee\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CRUD on Employee\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T11:50:21.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
