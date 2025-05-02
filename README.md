@@ -5,7 +5,7 @@ backend/: ASP.NET Core Web API (with Entity Framework Core code frist & SQL Serv
 
 How To Run :
 
-backend must run frist : 
+backend must run first : 
 1- Open the backend folder in Visual Studio 
 2-connection string must be correct in appsettings.json
 3- Apply the migration to create the database
